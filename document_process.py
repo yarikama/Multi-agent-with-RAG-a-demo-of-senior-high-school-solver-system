@@ -24,7 +24,6 @@ class DocumentProcessor:
                         documents.append(document)
         return documents
 
-
     def split_documents(self, documents: list[Document]):
         splitter = RecursiveCharacterTextSplitter(
             chunk_size=self.chunk_size,

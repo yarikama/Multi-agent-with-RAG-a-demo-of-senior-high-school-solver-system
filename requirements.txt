@@ -1,6 +1,9 @@
 crewai
+torch
 langchain
+langgraph
 openai
+requests
 python-dotenv
 langchain-community
 langserve[all]

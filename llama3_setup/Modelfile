@@ -1,0 +1,8 @@
+#https://github.com/ollama/ollama/blob/main/docs/modelfile.md#build-from-llama3
+
+FROM llama3:8b
+
+PARAMETER temperature 0.2
+PARAMETER stop Result
+
+SYSTEM """"""
